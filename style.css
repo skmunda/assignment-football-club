@@ -143,7 +143,7 @@ Media query
 ------------------------------------------------------*/
 /* For Mobile Devices */
 @media only screen and (max-width: 688px) {
-.all-sections,.sub-header, .footer{
+.all-sections, header, .footer{
     width: 100%;
 }
 .mobile-responsive{
@@ -157,7 +157,7 @@ Media query
 }
 /*For Tablet Devices */
 @media only screen and (min-width: 688px) and (max-width: 992px){
-    .all-sections,.sub-header, .footer{
+    .all-sections,header, .footer{
         width: 100%;
     }
     .header-description{
